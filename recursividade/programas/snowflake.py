@@ -9,7 +9,7 @@ Copyright (c) 2008 University of Coimbra. All rights reserved.
 
 import sys
 import os
-from xturtle import *
+from turtle import *
 
 def snowflake(size,level):
 	for i in range(3):
@@ -30,12 +30,12 @@ def side(size,level):
 		side(size/3, level-1)
 
 def main():
-	reset()
-	pd()
-	size,level=eval(input("Tamanho e nível"))
+	#reset()
+	#pd()
+	size,level=eval(input("Tamanho e Nível: "))
 	snowflake(size,level)
 	ht()
-	input()
+	exitonclick()
 
 
 if __name__ == '__main__':

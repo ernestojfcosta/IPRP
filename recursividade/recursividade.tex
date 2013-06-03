@@ -34,7 +34,7 @@ Já todos tivemos a experiência de nos colocarmos entre dois espelhos paralelos. 
 \end{center}
 \end{figure}
 
-\marginlabel{Recursividade}Estamos perante  exemplos do conceito de recursividade: quando um objecto se define em fun\c cão dele próprio. Na literatura  aparecem acrónimos recursivos. Por exemplo, \textbf{GNU}, que significa \textit{GNU's Not Unix} ou ainda\textit{GOD} que, no famoso livro de Douglas Hofstadter, significa \textit{GOD Over Djinn}\footnote{Como discutiremos mais adiante estas últimas manifesta\c cões de recursividade têm um problema importante: nunca nos permitem parar.}.
+\marginlabel{Recursividade}Estamos perante  exemplos do conceito de recursividade: quando um objecto se define em fun\c cão dele próprio. Na literatura  aparecem acrónimos recursivos. Por exemplo, \textbf{GNU}, que significa \textit{GNU's Not Unix} ou ainda \textit{GOD} que, no famoso livro de Douglas Hofstadter, significa \textit{GOD Over Djinn}\footnote{Como discutiremos mais adiante estas últimas manifesta\c cões de recursividade têm um problema importante: nunca nos permitem parar.}.
 
 E o que é que isso tem que ver com a programa\c cão? Bom, já referimos que para resolver um dado problema uma abordagem metodológica interessante é dividi-lo em sub-problemas mais simples cuja solu\c cão encontramos. Juntando as solu\c cões parciais chegamos à solu\c cão global. E o que acontece quando um (ou mais) desses problemas é \textbf{semelhante} ao problema original? Para tornar a discussão mais concreta vamos introduzir um problema muito famoso denominado \textit{Torres de Hanói}. Na  figura \ref{fig:han1} vemos três varas colocadas num suporte. Numa das varas estão três discos (embora possa ser qualquer número) ordenados pelo  seu diâmetro. O problema é determinar a sequência de movimentos que me permite deslocar os discos da vara da esquerda para a vara da direita usando a do meio como auxiliar. As restri\c cões são: (1) só podemos deslocar um disco de cada vez e  (2) nunca podemos ter uma situa\c cão em que um disco está por cima de outro de diâmetro inferior. Convidamos o leitor a resolver o problema. Conseguiu? Tente agora aumentar o número de discos e verá como a tarefa se torna muito, mas mesmo muito, difícil.
 
@@ -368,7 +368,7 @@ def impar(n):
 
 Chamamos a aten\c cão para as condi\c cões de paragem    nos dois casos. Podem ser simplificadas? Deixamos ao leitor a reflexão sobre esta questão.\\
 
-\marginlabel{Sequência Alternada}Vejamos um outro exemplo de recursividade cruzada. O problema é o seguinte: dada uma sequência de números queremos determinar se todos os números ou são maiores que os seus vizinhos esquerdo e direito ou (exclusivo) são menores. Exemplo de sequência que satisfaz esta condi\c cão: \textbf{[0,9,3,7]}. Os elementos nas extremidades só testam uma das condi\c cões . Na prática é como se tivéssemos uma sequência de números em que cada um deles, alternadamente, sobe e desce em valor relativamente ao seu antecessor. A ideia para chegar à solu\c cão baseia-se na compara\c cão dois a dois dos elementos da sequência. Uma sequência alterna se os seus primeiros dois números estiverem em ordem crescente (decrescente) e o resto da sequência sem o primeiro elemento alternar com início decrescente (crescente). O caso de base é trivial e resume-se à situa\c cão de existir apenas um elemento na sequência que manifestamente alterna. Depois destas considera\c cões chegamos à solu\c cão apresentada na listagem \ref{lst:alt}.
+\marginlabel{Sequência Alternada}Vejamos um outro exemplo de recursividade cruzada. O problema é o seguinte: dada uma sequência de números queremos determinar se todos os números ou são maiores que os seus vizinhos esquerdo e direito ou (exclusivo) são menores. Exemplo de sequência que satisfaz esta condi\c cão: \textbf{[0,9,3,7]}. Os elementos nas extremidades só testam uma das condi\c cões. Na prática é como se tivéssemos uma sequência de números em que cada um deles, alternadamente, sobe e desce em valor relativamente ao seu antecessor. A ideia para chegar à solu\c cão baseia-se na compara\c cão dois a dois dos elementos da sequência. Uma sequência alterna se os seus primeiros dois números estiverem em ordem crescente (decrescente) e o resto da sequência sem o primeiro elemento alternar com início decrescente (crescente). O caso de base é trivial e resume-se à situa\c cão de existir apenas um elemento na sequência que manifestamente alterna. Depois destas considera\c cões chegamos à solu\c cão apresentada na listagem \ref{lst:alt}.
 
 \begin{lstlisting}[caption='Sequência Alternada', label=lst:alt]
 def alterna_plus(lst):
@@ -1070,20 +1070,28 @@ abcda
 Escreva um programa que dados dois conjuntos determina se um está incluído no outro.
 \end{Exercicio}
 
+\begin{Exercicio}\facil
+Escreva um programa que dados dois conjuntos determina a sua intersecção.
+\end{Exercicio}
+
+\begin{Exercicio}\dificil
+O conjunto potência de um dado conjunto é o conjunto de todos os seus subconjuntos. Implemente o programa que calcula o conjunto potência para um dado conjunto.
+\end{Exercicio}
+
 % --- árvores binárias de procura
 
-\begin{Exercicio}
+\begin{Exercicio}\medio
 Escreva um programa recursivo que dado um elemento e uma árvore binária de procura indique se o elemento pertence ou não à árvore. Altere a sua solu\c cão por forma a também devolver a sub-árvore que tem esse elemento por raíz.
 \end{Exercicio}
 
 
-\begin{Exercicio}
+\begin{Exercicio}\medio
 Escreva um programa recursivo que permita inserir um elemento numa árvore binária de procura. No final a árvore deve continuar a ser uma AB de procura. Caso o elemento já exista nada deve feito.
 \end{Exercicio}
 
 
 
-\begin{Exercicio}
+\begin{Exercicio}\medio
 Os elementos de uma  AB de procura podem ser listados de três modos distintos:
 
 \begin{itemize}
@@ -1099,11 +1107,11 @@ Desenvolva os respectivos programas de travessia na versão recursiva.
 
 % --- Fim das AB de procura
 
-\begin{Exercicio}
+\begin{Exercicio}\modulo{turtle}\facil
 Retome o exemplo da listagem \ref{lst:fig4} e fa\c ca variar os próprios incrementos. Simule para alguns valores.
 \end{Exercicio}
 
-\begin{Exercicio} \label{exe:arv}
+\begin{Exercicio} \label{exe:arv}\modulo{turtle}\facil
 Queremos usar o módulo \textbf{turtle} para desenhar uma árvore simples como a indicada na figura \ref{fig:arv1}.
 \begin{figure}[!htbp]
 \begin{center}
@@ -1124,7 +1132,7 @@ Desenvolva o respectivo programa recursivo. A figura \ref{fig:arv2} dá uma ideia
 \end{figure}
 \end{Exercicio}
 
-\begin{Exercicio}
+\begin{Exercicio}\modulo{turtle}\medio
 
 A árvore do exercício \ref{exe:arv} não é muito \textit{natural}. Uma maneira de desenhar árvores mais interesantes consiste em desequilibrar a sub árvore direita e a esquerda fazendo, por exemplo os ramos de uma maiores do que a outra. A figura \ref{fig:arv3} ilustra um resultado quando o lado esquerdo é duplo do lado direito. Tente criar o programa recursivo que permite obter estes desenhos.
 
@@ -1138,7 +1146,7 @@ A árvore do exercício \ref{exe:arv} não é muito \textit{natural}. Uma maneira de
 
 \end{Exercicio}
 
-\begin{Exercicio}
+\begin{Exercicio}\medio
 Como sabemos uma lista pode ter como elementos listas. Um problema interessante é o de transformar uma lista genérica numa lista plana, isto é, uma lista formada apenas pela sequência dos seus elementos. Exemplo:
 
 \begin{lstlisting}
@@ -1150,11 +1158,11 @@ Desenvolva o respectivo programa recursivo.
 \end{Exercicio}
 
 
-\begin{Exercicio}
+\begin{Exercicio}\facil
 Escreva um programa recursivo que permita determinar se um dado padrão ocorre ou não num dado texto. O que se lhe oferece dizer sobre os custos computacionais da sua solu\c cão?
 \end{Exercicio}
 
-\begin{Exercicio}
+\begin{Exercicio}\medio
 
 Suponhamos que temos uma sequência de $n$ vectores $(V_{1},V_{2}, \ldots, V_{n})$, todos do mesmo cumprimento. Pretende-se um programa que forne\c ca todos os vectores possíveis de comprimento $n$ formados combinando ordenadamente os elementos dos vectores $V_{i}$. Exemplo:
 
@@ -1166,7 +1174,7 @@ Suponhamos que temos uma sequência de $n$ vectores $(V_{1},V_{2}, \ldots, V_{n})
 \end{Exercicio}
 
 
-\begin{Exercicio}
+\begin{Exercicio}\dificil
 A multiplica\c cão de matrizes é um processo fundamental em muitas áreas da computa\c cão. O seu custo computacional, medido em termos do número de multiplica\c cões e adi\c cões dos seus elementos, é bastante elevado. Existe um método recursivo de multiplica\c cão de matrizes, conhecido por método de \textbf{Strassen}, bastante eficiente. Se tivermos duas matrizes $n \times n$, $X$ e $Y$, e quisermos calcular $Z=X \times Y$ sabemos que o número de multiplica\c cões necessárias é da ordem de $\mathcal{O}(n^3)$. O método de Strassen consiste em dividir \textbf{recursivamente} cada uma das duas matrizes em quatro matrizes de dimensão $n/2 \times n/2$. Quando temos matrizes $2 \times 2$ Strassen encontrou um conjunto de formulas que apenas necessitam de 7 multiplica\c cões e 18 somas e/ou adi\c cões. Com este algoritmo a complexidade baiuxa para $\mathcal{O}(n^{2.81})$. Vejamos como. Consideremos as matrizes $X$ e $Y$ e o seu produto $Z$.
 
 \begin{equation*}
@@ -1213,7 +1221,7 @@ Para simplificar admita que $n$ é uma potência de 2, isto é $n=2^k$ e implemente
 
 \end{Exercicio}
 
-\begin{Exercicio}
+\begin{Exercicio}\dificil
 Um autómato finito é uma máquina de estados usada em várias aplica\c cões informáticas, como por exemplo para implementar um analisador \c cexical de um compilador. Um \textbf{Autómato finito} pode ser definido matematicamente pelo tuplo:
 
 \[\mathcal{M}=(Q,\Sigma,\delta,q_{0},F)\]
@@ -1236,5 +1244,32 @@ inicial= 'P'
 final= ['P']
 \end{lstlisting}
 
+
+\end{Exercicio}
+
+\begin{Exercicio}\modulo{turtle}\dificil
+A curva conhecida por Floco de Neve\footnote{Do inglês \textit{Snowflake}.} forma-se de acordo com uma regra simples. Num dado nível, cada lado é dividido em três partes iguais sendo retirada a parte do meio. De seguida, a partir das extremidades interiores formam-se dois novos segmentos, de tamanho igual a um terço do original, com uma inclinação de 60º  em relação aos segmentos que se mantém e  que se unem numa das extremidades. A figura \ref{fig:snow} mostra o processo de construção desta curva para os níveis 1, 2 e 3. Usando o módulo \texttt{turtle} desenvolva um programa que permita desenhar a curvas. O valor do lado e o número de níveis a considerar são  parâmetros do programa.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.7]{recursividade/imagens/snowflake.eps}
+\caption{Floco de Neve}
+\label{fig:snow}
+\end{center}
+\end{figure}
+
+\end{Exercicio}
+
+\begin{Exercicio}\modulo{turtle}\muitodificil
+A curva de Hilbert é um exemplo de curva de preenchimento de espaço. A sua ideia baseia-se em decompor a curva do nível $n$ em quatro curvas de nível $n - 1$ ligadas entre si. A figura \ref{fig:hilb} mostra a curva desenhada caso só tenha um nível, dois níveis ou três níveis. Usando o módulo \texttt{turtle} desenvolva um programa que permita desenhar a curvas. O valor do lado e o número de níveis a considerar são  parâmetros do programa.
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.7]{recursividade/imagens/hilbert.eps}
+\caption{Curvas de Hilbert}
+\label{fig:hilb}
+\end{center}
+\end{figure}
 
 \end{Exercicio}

@@ -13,7 +13,41 @@ import sys
 import os
 
 def deriva(f,x):
-	pass
+	if isinstance(f, [int,float]):
+		return 0
+
+
+# Subconjunto
+
+def sub_conjunto(conj_1, conj_2):
+	"""Determina se conj_1 é sub_conjunto de conj_2. Representados como listas simples"""
+	if conj_1 == []:
+		return True
+	else:
+		return (conj_1[0] in conj_2) and sub_conjunto(conj_1[1:], conj_2)
+	
+def sub_conjunto_b(conj_1, conj_2):
+	"""Determina se conj_1 é sub_conjunto de conj_2. Representados como listas simples"""
+	return (conj_1 == None) or ((conj_1[0] in conj_2) and sub_conjunto(conj_1[1:], conj_2))
+	
+
+def intersecta(conj_1, conj_2):
+	"""Determina a intersecção de dois conjuntos."""
+	if conj_1 == []:
+		return []
+	elif conj_1[0] in conj_2:
+		return [conj_1[0]] + intersecta(conj_1[1:], conj_2)
+	else:
+		return intersecta(conj_1[1:], conj_2)
+
+# Conjunto potência
+
+def power_set(conj):
+	if conj == []:
+		return [[]]
+	else:
+		temp = power_set(conj[1:])
+		return temp + [[conj[0]] + elem for elem in temp ]
 	
 # potência
 
@@ -182,8 +216,51 @@ def main():
 	print(travessia_post(abp))
 	#print pot_op(2,10)
 
+# Hilbert
+
+from turtle import *
 
 
+def lHilbert(size,level):
+	if level == 0 :
+		return
+	else:
+		lt(90)
+		rHilbert(size,level-1)
+		fd(size)
+		rt(90)
+		lHilbert(size, level-1)
+		fd(size)
+		lHilbert(size, level-1)
+		rt(90)
+		fd(size)
+		rHilbert(size,level-1)
+		lt(90)
+		
+def rHilbert(size,level):
+	if level == 0 :
+		return
+	else:
+		rt(90)
+		lHilbert(size,level-1)
+		fd(size)
+		lt(90)
+		rHilbert(size, level-1)
+		fd(size)
+		rHilbert(size, level-1)
+		lt(90)
+		fd(size)
+		lHilbert(size,level-1)
+		rt(90)		
+	
+
+def main_hilbert():
+	size,level=eval(input("Tamanho e Nível: "))
+	lHilbert(size,level)
+	ht()
+	exitonclick()
+	
 if __name__ == '__main__':
-	main()
+	#main()
+	print(power_set([1,2,3]))
 
