@@ -1,0 +1,52 @@
+\select@language {portuguese}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Modelo PCAP\relax }}{17}{table.caption.16}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Literais Num\'ericos\relax }}{70}{table.caption.48}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Opera\c c\~oes b\'asicas sobre n\'umeros\relax }}{73}{table.caption.50}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Operadores de convers\~ao de tipos\relax }}{76}{table.caption.53}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Operadores ao n\IeC {\'\i }vel do Bit\relax }}{80}{table.caption.56}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Operadores Booleanos\relax }}{82}{table.caption.58}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Operadores de Compara\c c\~ao\relax }}{83}{table.caption.59}
+\contentsline {table}{\numberline {3.7}{\ignorespaces Literais Para Cadeias de Caracteres\relax }}{86}{table.caption.60}
+\contentsline {table}{\numberline {3.8}{\ignorespaces Caracteres de controlo em cadeias de carateres\relax }}{87}{table.caption.62}
+\contentsline {table}{\numberline {3.9}{\ignorespaces Opera\c c\~oes b\'asicas Para Cadeias de Caracteres\relax }}{89}{table.caption.66}
+\contentsline {table}{\numberline {3.10}{\ignorespaces Opera\c c\~oes adicionais ara cadeias de caracteres\relax }}{93}{table.caption.72}
+\contentsline {table}{\numberline {3.11}{\ignorespaces M\'etodos das cadeias de caracteres\relax }}{94}{table.caption.74}
+\contentsline {table}{\numberline {3.12}{\ignorespaces Opera\c c\~oes para tuplos\relax }}{105}{table.caption.79}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Palavras Reservadas\relax }}{129}{table.caption.95}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Representa\c c\~oes de Falso\relax }}{153}{table.caption.110}
+\contentsline {table}{\numberline {5.2}{\ignorespaces O que escolher? Pre\c cos em euros.\relax }}{188}{table.caption.139}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Literais para Listas\relax }}{197}{table.caption.143}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Opera\c c\~oes sobre Listas\relax }}{197}{table.caption.144}
+\contentsline {table}{\numberline {6.3}{\ignorespaces M\'etodos Pr\'e-Definidos para Listas\relax }}{208}{table.caption.158}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Literais para dicion\'arios\relax }}{219}{table.caption.164}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Opera\c c\~oes sobre Dicion\'arios\relax }}{221}{table.caption.166}
+\contentsline {table}{\numberline {6.6}{\ignorespaces M\'etodos Pr\'e-Definidos para Dicion\'arios\relax }}{226}{table.caption.169}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Modos de abertura de ficheiros de texto\relax }}{241}{table.caption.182}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Opera\c c\~oes de leitura com ficheiros\relax }}{242}{table.caption.183}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Opera\c c\~oes de escrita com ficheiros\relax }}{247}{table.caption.186}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Operadores de naveg\c c\~ao\relax }}{249}{table.caption.187}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {9.1}{\ignorespaces Imagens e tamanhos\relax }}{321}{table.caption.224}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Movimentos\relax }}{416}{table.caption.305}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Orienta\c c\~ao\relax }}{416}{table.caption.307}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Desenho\relax }}{418}{table.caption.309}
+\contentsline {table}{\numberline {A.4}{\ignorespaces Estado da tartaruga\relax }}{419}{table.caption.311}
+\contentsline {table}{\numberline {A.5}{\ignorespaces Visibilidade\relax }}{419}{table.caption.312}
+\contentsline {table}{\numberline {A.6}{\ignorespaces Aspecto da tartaruga\relax }}{419}{table.caption.313}
+\contentsline {table}{\numberline {A.7}{\ignorespaces Medidas\relax }}{420}{table.caption.314}
+\contentsline {table}{\numberline {A.8}{\ignorespaces Estado da caneta\relax }}{420}{table.caption.315}
+\contentsline {table}{\numberline {A.9}{\ignorespaces Cor\relax }}{422}{table.caption.317}
+\contentsline {table}{\numberline {A.10}{\ignorespaces Preenchimento\relax }}{422}{table.caption.318}
+\contentsline {table}{\numberline {A.11}{\ignorespaces Espec\IeC {\'\i }fico da Janela\relax }}{423}{table.caption.320}
+\contentsline {table}{\numberline {A.12}{\ignorespaces Controlo da janela\relax }}{423}{table.caption.321}
+\contentsline {table}{\numberline {A.13}{\ignorespaces Eventos\relax }}{423}{table.caption.322}

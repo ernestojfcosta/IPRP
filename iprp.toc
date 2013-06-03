@@ -1,0 +1,200 @@
+\select@language {portuguese}
+\contentsline {paragraph}{Organiza\c c\~ao}{xx}{section*.1}
+\contentsline {paragraph}{Agradecimentos}{xx}{section*.2}
+\contentsline {chapter}{\numberline {1}Introdu\c c\~ao}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Computadores}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Arquitectura}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Funcionamento}{3}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Linguagens}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Da m\'aquina ao utilizador}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Diferentes paradigmas}{8}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Modelo PCAP}{16}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}A linguagem Python}{17}{section.1.3}
+\contentsline {section}{\numberline {1.4}Programas}{19}{section.1.4}
+\contentsline {section}{\numberline {1.5}O meu primeiro programa}{20}{section.1.5}
+\contentsline {section}{\numberline {1.6}Fazer escolhas}{26}{section.1.6}
+\contentsline {section}{\numberline {1.7}Repetir}{27}{section.1.7}
+\contentsline {section}{\numberline {1.8}Intermezzo}{29}{section.1.8}
+\contentsline {section}{\numberline {1.9}M\'odulos}{29}{section.1.9}
+\contentsline {section}{\numberline {1.10}Adivinhar}{32}{section.1.10}
+\contentsline {section}{\numberline {1.11}Modo n\~ao interactivo}{35}{section.1.11}
+\contentsline {section}{Sum\'ario}{37}{section*.25}
+\contentsline {section}{Teste os seus conhecimentos}{38}{section*.26}
+\contentsline {section}{Exerc\IeC {\'\i }cios}{39}{section*.27}
+\contentsline {chapter}{\numberline {2}Vis\~oes (I)}{45}{chapter.2}
+\contentsline {section}{\numberline {2.1}Coisas que mexem}{45}{section.2.1}
+\contentsline {section}{\numberline {2.2}Tartarugas e geometria}{48}{section.2.2}
+\contentsline {section}{\numberline {2.3}Intermezzo}{52}{section.2.3}
+\contentsline {section}{\numberline {2.4}Gr\'aficos de fun\c c\~oes}{56}{section.2.4}
+\contentsline {section}{Sum\'ario}{60}{section*.39}
+\contentsline {section}{Teste os seus conhecimentos}{62}{section*.40}
+\contentsline {section}{Exerc\IeC {\'\i }cios}{62}{section*.41}
+\contentsline {chapter}{\numberline {3}Objectos (I)}{65}{chapter.3}
+\contentsline {section}{\numberline {3.1}Generalidades}{65}{section.3.1}
+\contentsline {section}{\numberline {3.2}N\'umeros}{70}{section.3.2}
+\contentsline {subsubsection}{Exemplos}{80}{section*.57}
+\contentsline {section}{\numberline {3.3}Booleanos}{82}{section.3.3}
+\contentsline {section}{\numberline {3.4}Cadeia de Caracteres}{85}{section.3.4}
+\contentsline {subsubsection}{Operadores}{89}{section*.65}
+\contentsline {subsubsection}{Indexa\c c\~ao}{89}{section*.67}
+\contentsline {subsubsection}{Fatiamento}{90}{section*.69}
+\contentsline {subsubsection}{Mais opera\c c\~oes}{93}{section*.71}
+\contentsline {subsubsection}{M\'etodos}{94}{section*.73}
+\contentsline {subsubsection}{Construtor}{95}{section*.75}
+\contentsline {subsubsection}{Exemplos}{96}{section*.76}
+\contentsline {subsubsection}{Mais exemplos}{98}{section*.77}
+\contentsline {section}{\numberline {3.5}Range}{101}{section.3.5}
+\contentsline {section}{\numberline {3.6}Tuplos}{104}{section.3.6}
+\contentsline {subsubsection}{Opera\c c\~oes}{105}{section*.78}
+\contentsline {subsubsection}{Empacotamento}{106}{section*.80}
+\contentsline {subsubsection}{Construtor}{107}{section*.81}
+\contentsline {subsubsection}{Representa\c c\~ao}{108}{section*.82}
+\contentsline {subsubsection}{Embricamento}{109}{section*.85}
+\contentsline {subsubsection}{Tuplos com nome}{110}{section*.87}
+\contentsline {section}{\numberline {3.7}Intermezzo}{114}{section.3.7}
+\contentsline {section}{\numberline {3.8}Mutabilidade}{116}{section.3.8}
+\contentsline {subsubsection}{Mutabilidade e mem\'oria}{119}{section*.89}
+\contentsline {section}{Sum\'ario}{120}{section*.92}
+\contentsline {section}{Teste os seus conhecimentos}{121}{section*.93}
+\contentsline {section}{Exerc\IeC {\'\i }cios}{122}{section*.94}
+\contentsline {chapter}{\numberline {4}Instru\c c\~oes Destrutivas }{127}{chapter.4}
+\contentsline {section}{\numberline {4.1}Generalidades}{128}{section.4.1}
+\contentsline {section}{\numberline {4.2}Atribui\c c\~ao}{130}{section.4.2}
+\contentsline {subsubsection}{Atribui\c c\~ao Impl\IeC {\'\i }cita}{132}{section*.97}
+\contentsline {subsubsection}{Outras formas de atribui\c c\~ao}{134}{section*.100}
+\contentsline {section}{\numberline {4.3}Leitura}{136}{section.4.3}
+\contentsline {section}{\numberline {4.4}Escrita}{138}{section.4.4}
+\contentsline {subsubsection}{Express\~oes de formata\c c\~ao}{139}{section*.102}
+\contentsline {subsubsection}{M\'etodo de formata\c c\~ao}{140}{section*.103}
+\contentsline {section}{Sum\'ario}{141}{section*.104}
+\contentsline {section}{Teste os seus conhecimentos}{142}{section*.105}
+\contentsline {section}{Exerc\IeC {\'\i }cios}{142}{section*.106}
+\contentsline {chapter}{\numberline {5}Instru\c c\~oes de Controlo}{149}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introdu\c c\~ao}{149}{section.5.1}
+\contentsline {subsubsection}{Indenta\c c\~ao e Blocos}{150}{section*.107}
+\contentsline {subsubsection}{Express\~oes Booleanas}{151}{section*.109}
+\contentsline {section}{\numberline {5.2}Sequ\^encias}{153}{section.5.2}
+\contentsline {section}{\numberline {5.3}Condicionais}{154}{section.5.3}
+\contentsline {paragraph}{Condicional Simples}{155}{section*.112}
+\contentsline {paragraph}{Condicional Normal}{156}{section*.114}
+\contentsline {paragraph}{Condicional Geral}{157}{section*.116}
+\contentsline {section}{\numberline {5.4}Ciclos}{162}{section.5.4}
+\contentsline {subsubsection}{for}{163}{section*.119}
+\contentsline {subsubsection}{while}{165}{section*.121}
+\contentsline {paragraph}{Exemplos Simples}{166}{section*.123}
+\contentsline {section}{\numberline {5.5}Intermezzo}{167}{section.5.5}
+\contentsline {section}{\numberline {5.6}Qual o valor de $\pi $?}{169}{section.5.6}
+\contentsline {subsubsection}{M\'etodo de Monte Carlo}{172}{section*.125}
+\contentsline {subsubsection}{Simula\c c\~oes}{176}{section*.128}
+\contentsline {section}{\numberline {5.7}Outras Instru\c c\~oes de controlo}{177}{section.5.7}
+\contentsline {subsubsection}{break}{178}{section*.130}
+\contentsline {subsubsection}{continue}{179}{section*.131}
+\contentsline {subsubsection}{else}{180}{section*.132}
+\contentsline {subsubsection}{pass}{181}{section*.133}
+\contentsline {section}{\numberline {5.8}Excep\c c\~oes}{182}{section.5.8}
+\contentsline {subsubsection}{Asser\c c\~oes}{186}{section*.135}
+\contentsline {section}{Sum\'ario}{187}{section*.136}
+\contentsline {section}{Teste os seus conhecimentos}{187}{section*.137}
+\contentsline {section}{Exerc\IeC {\'\i }cios}{187}{section*.138}
+\contentsline {chapter}{\numberline {6}Objectos Estruturados}{195}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introdu\c c\~ao}{195}{section.6.1}
+\contentsline {section}{\numberline {6.2}Listas}{195}{section.6.2}
+\contentsline {subsubsection}{Construtor}{199}{section*.145}
+\contentsline {subsubsection}{Mutabilidade e partilha}{200}{section*.146}
+\contentsline {subsubsection}{C\'opia profunda}{205}{section*.153}
+\contentsline {subsubsection}{Mutabilidade e passagem de par\^ametros}{205}{section*.155}
+\contentsline {section}{\numberline {6.3}Dicion\'arios}{214}{section.6.3}
+\contentsline {subsubsection}{Construtor}{219}{section*.165}
+\contentsline {subsubsection}{Exemplo de utiliza\c c\~ao}{221}{section*.167}
+\contentsline {subsubsection}{M\'etodos}{224}{section*.168}
+\contentsline {section}{\numberline {6.4}Mais exemplos}{230}{section.6.4}
+\contentsline {section}{Sum\'ario}{232}{section*.178}
+\contentsline {section}{Teste os seus conhecimentos}{233}{section*.179}
+\contentsline {section}{Exerc\IeC {\'\i }cios}{238}{exercicio.6.21}
+\contentsline {chapter}{\numberline {7}Ficheiros }{239}{chapter.7}
+\contentsline {section}{\numberline {7.1}Generalidades}{239}{section.7.1}
+\contentsline {section}{\numberline {7.2}Leitura}{242}{section.7.2}
+\contentsline {section}{\numberline {7.3}Escrita}{247}{section.7.3}
+\contentsline {section}{\numberline {7.4}Navegar}{248}{section.7.4}
+\contentsline {section}{\numberline {7.5}Intermezzo}{251}{section.7.5}
+\contentsline {subsubsection}{A instru\c c\~ao \texttt {with}}{251}{section*.188}
+\contentsline {subsubsection}{Formata\c c\~ao por linhas}{252}{section*.189}
+\contentsline {section}{\numberline {7.6}Exemplo}{253}{section.7.6}
+\contentsline {section}{\numberline {7.7}De um ficheiro de palavras a um dicion\'ario de frequ\^encias}{262}{section.7.7}
+\contentsline {section}{\numberline {7.8}Outros Tipos de Ficheiros}{263}{section.7.8}
+\contentsline {subsection}{\numberline {7.8.1}csv}{263}{subsection.7.8.1}
+\contentsline {subsection}{\numberline {7.8.2}urllib}{266}{subsection.7.8.2}
+\contentsline {subsubsection}{Exemplo}{267}{section*.193}
+\contentsline {section}{Sum\'ario}{271}{section*.196}
+\contentsline {section}{Teste os seus conhecimentos}{271}{section*.197}
+\contentsline {section}{Exerc\IeC {\'\i }cios}{272}{section*.198}
+\contentsline {chapter}{\numberline {8}Metodologia da Programa\c c\~ao}{279}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introdu\c c\~ao}{279}{section.8.1}
+\contentsline {section}{\numberline {8.2}Um Problema Simples}{280}{section.8.2}
+\contentsline {section}{\numberline {8.3}Uma quest\~ao de consenso}{293}{section.8.3}
+\contentsline {subsubsection}{Mais do que as quatro bases}{300}{section*.215}
+\contentsline {section}{\numberline {8.4}Protec\c c\~oes}{302}{section.8.4}
+\contentsline {section}{\numberline {8.5}Novo exemplo: quadrado m\'agico}{305}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Princ\IeC {\'\i }pios}{305}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Primeira Vers\~ao}{306}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}Linhas}{309}{subsection.8.5.3}
+\contentsline {subsection}{\numberline {8.5.4}Colunas}{309}{subsection.8.5.4}
+\contentsline {subsection}{\numberline {8.5.5}Diagonais}{312}{subsection.8.5.5}
+\contentsline {subsection}{\numberline {8.5.6}N\'umero M\'agico}{313}{subsection.8.5.6}
+\contentsline {subsection}{\numberline {8.5.7}Juntando as pe\c cas}{313}{subsection.8.5.7}
+\contentsline {section}{Sum\'ario}{316}{section*.219}
+\contentsline {section}{Teste os seus conhecimentos}{316}{section*.220}
+\contentsline {section}{Exerc\IeC {\'\i }cios}{316}{section*.221}
+\contentsline {chapter}{\numberline {9}Vis\~oes (II)}{319}{chapter.9}
+\contentsline {section}{\numberline {9.1}Introdu\c c\~ao}{319}{section.9.1}
+\contentsline {section}{\numberline {9.2}Representa\c c\~ao de imagens}{321}{section.9.2}
+\contentsline {section}{\numberline {9.3}O m\'odulo cImage}{325}{section.9.3}
+\contentsline {subsubsection}{Janelas}{326}{section*.226}
+\contentsline {subsubsection}{Imagens}{327}{section*.227}
+\contentsline {subsubsection}{Pixeis}{327}{section*.228}
+\contentsline {section}{\numberline {9.4}Exemplos B\'asicos}{327}{section.9.4}
+\contentsline {section}{\numberline {9.5}Manipula\c c\~oes simples}{333}{section.9.5}
+\contentsline {subsubsection}{Negativo}{333}{section*.234}
+\contentsline {subsubsection}{Cinzentos}{335}{section*.236}
+\contentsline {subsubsection}{Sepia}{337}{section*.239}
+\contentsline {section}{\numberline {9.6}Intermezzo: abstrac\c c\~ao}{338}{section.9.6}
+\contentsline {subsubsection}{Brilho}{339}{section*.241}
+\contentsline {section}{\numberline {9.7}Exemplos complementares}{340}{section.9.7}
+\contentsline {subsubsection}{Colorir o ch\~ao}{340}{section*.243}
+\contentsline {subsubsection}{Distorcer uma imagem}{345}{section*.246}
+\contentsline {subsubsection}{Espelho}{347}{section*.249}
+\contentsline {section}{\numberline {9.8}Filtros}{349}{section.9.8}
+\contentsline {subsubsection}{Convolu\c c\~ao}{352}{section*.254}
+\contentsline {subsubsection}{Extrair caracter\IeC {\'\i }sticas}{356}{section*.258}
+\contentsline {section}{\numberline {9.9}O formato de imagem PPM}{358}{section.9.9}
+\contentsline {subsubsection}{De ppm para jpg}{359}{section*.261}
+\contentsline {subsubsection}{De jpg para PPM}{360}{section*.262}
+\contentsline {section}{Sum\'ario}{361}{section*.263}
+\contentsline {section}{Teste os seus conhecimentos}{362}{section*.264}
+\contentsline {section}{Exerc\IeC {\'\i }cios}{362}{section*.265}
+\contentsline {chapter}{\numberline {10}Recursividade}{371}{chapter.10}
+\contentsline {section}{\numberline {10.1}Conceitos}{371}{section.10.1}
+\contentsline {section}{\numberline {10.2}Exemplos}{376}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}N\'umeros}{376}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Sequ\^encias}{386}{subsection.10.2.2}
+\contentsline {subsection}{\numberline {10.2.3}Gr\'aficos}{393}{subsection.10.2.3}
+\contentsline {section}{\numberline {10.3}Exemplos Complementares}{398}{section.10.3}
+\contentsline {section}{\numberline {10.4}Quando usar?}{403}{section.10.4}
+\contentsline {section}{Sum\'ario}{407}{section*.298}
+\contentsline {section}{Teste os seus conhecimentos}{407}{section*.299}
+\contentsline {section}{Exerc\IeC {\'\i }cios}{408}{section*.300}
+\contentsline {chapter}{\numberline {A}O m\'odulo \texttt {turtle}}{415}{chapter.1}
+\contentsline {section}{\numberline {A.1}Introdu\c c\~ao}{415}{section.1.1}
+\contentsline {section}{\numberline {A.2}Tartaruga}{415}{section.1.2}
+\contentsline {subsection}{\numberline {A.2.1}Movimento e Orienta\c c\~ao}{415}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Desenho}{418}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Estado}{418}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {A.2.4}Visibilidade}{419}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {A.2.5}Aspecto}{419}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {A.2.6}Medidas}{419}{subsection.1.2.6}
+\contentsline {section}{\numberline {A.3}Caneta}{420}{section.1.3}
+\contentsline {subsection}{\numberline {A.3.1}Estado}{420}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Controlo da cor}{420}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {A.3.3}Preenchimento}{422}{subsection.1.3.3}
+\contentsline {section}{\numberline {A.4}Janela}{422}{section.1.4}
+\contentsline {section}{\numberline {A.5}Eventos}{423}{section.1.5}
